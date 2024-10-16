@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-     <!-- css link -->
+    <!-- AOS link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- css link -->
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
+    <title>Portfolio | Pabicamz</title>
 </head>
 <body>
     <!-- header section -->
@@ -72,7 +74,7 @@
                             <img src="/images/html1.webp" alt="card">
                             <div class="bottom">
                                 <div class="left">
-                                <p>Lorem, ipsum dolor.</p>
+                                <p>Click on the icon</p>
                                 <h4>html tutorial</h4>
                             </div>
                              <a href="https://www.youtube.com/watch?v=UB1O30fR-EE&t=1330s"><i class="fa fa-arrow-right"></i></a>
@@ -83,7 +85,7 @@
                             <img src="/images/css1.avif" alt="card">
                             <div class="bottom">
                                 <div class="left">
-                                <p>Lorem, ipsum dolor.</p>
+                                <p>Click on the icon</p>
                                 <h4>css tutorial</h4>
                             </div>
                              <a href="https://www.youtube.com/watch?v=yfoY53QXEnI&t=4157s"><i class="fa fa-arrow-right"></i></a>
@@ -100,7 +102,7 @@
                     <h2>Experience</h2>
                     <div class="sects">
                         <!-- section 1 -->
-                        <div class="sect">
+                        <div class="sect" data-aos="zoom-in">
                             <div class="sect-head">
                                 <div class="logo">
                                 <img src="/images/icons8-google-logo-48.png" alt="google">
@@ -114,7 +116,7 @@
                             </p>
                         </div>
                         <!-- section 2 -->
-                        <div class="sect">
+                        <div class="sect" data-aos="zoom-in">
                             <div class="sect-head">
                                 <div class="logo">
                                 <img src="/images/pngwing.com (8).png" alt="apple">
@@ -128,7 +130,7 @@
                            </p>
                         </div>
                         <!-- section 3 -->
-                        <div class="sect">
+                        <div class="sect" data-aos="zoom-in">
                             <div class="sect-head">
                                 <div class="logo">
                                 <img id="meta" src="/images/pngwing.com.png" alt="meta">
@@ -152,7 +154,7 @@
             <!-- scroll to top -->
 
             <!-- footer contact section -->
-             <footer id="contact">
+             <footer id="contact" data-aos="zoom-in">
                 <div class="container">
                     <h6>Contact Me</h6>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum soluta repellendus nisi enim nesciunt, sit ad odit dolores odio similique perferendis labore minus dignissimos iste blanditiis recusandae, amet inventore numquam! Facere dolorem ipsum sapiente quae.</p>
@@ -162,13 +164,22 @@
                     <p>connect with me on my socials by clicking one the social icon</p>
                     </div>
                     <div class="links">
+                       <a href="https://www.threads.net/@pabicamz"><img src="/images/threads.png" alt="thread"></a>
                        <a href="https://www.instagram.com/pabicamz/"><img src="/images/instagram.png" alt="instagram"></a>
-                       <a href="https://www.threads.net/@pabicamz"><img src="/images/threads.png" alt="instagram"></a>
-                       <a href="https://www.x.com/@pabicamz"><img src="/images/twitter (1).png" alt="instagram"></a> 
+                       <a href="https://www.x.com/@pabicamz"><img src="/images/twitter (1).png" alt="twitter-X"></a> 
                     </div>
                 </div>
              </footer>
             <!-- footer contact section ends -->
+
+            <!-- AOS script -->
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+              AOS.init({
+                offset: 300,
+                duration: 1000,
+              });
+            </script>
 
             <script src="app.js"></script>
 
